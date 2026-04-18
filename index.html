@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F.O.R.S.E.T.I.X. — AI Fermentation Control Platform</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&family=DM+Mono:wght@300;400;500&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">F.O.R.S.E.T.I.X<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#platform">Platform</a></li>
+    <li><a href="#modules">Modules</a></li>
+    <li><a href="#markets">Markets</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="btn-ghost">Sign In</button>
+    <button class="btn-primary">Request Demo</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <!-- Bubbles -->
+  <div class="bubble" style="width:8px;height:8px;left:8%;animation-duration:14s;animation-delay:-2s;bottom:0"></div>
+  <div class="bubble" style="width:4px;height:4px;left:15%;animation-duration:18s;animation-delay:-6s;bottom:0"></div>
+  <div class="bubble" style="width:6px;height:6px;left:22%;animation-duration:12s;animation-delay:-9s;bottom:0"></div>
+  <div class="bubble" style="width:10px;height:10px;left:30%;animation-duration:20s;animation-delay:-3s;bottom:0"></div>
+  <div class="bubble" style="width:5px;height:5px;left:42%;animation-duration:16s;animation-delay:-11s;bottom:0"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">AI/ML Fermentation Intelligence · B2B SaaS Platform</div>
+    <h1 class="hero-title">
+      <span class="accent">F.O.R.S.E.T.I.X.</span>
+    </h1>
+    <div class="hero-subtitle-main">Fermentation Optimisation<br>Real-time Sensing &amp; Expert Technology Intelligence Exchange</div>
+    <p class="hero-desc">
+      Enterprise-grade AI/ML platform for precision fermentation control. Real-time process monitoring, predictive analytics, and autonomous optimization for producers at every scale.
+    </p>
+    <div class="hero-cta">
+      <button class="btn-large" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">Start Free Trial</button>
+      <button class="btn-large-ghost" onclick="document.getElementById('platform').scrollIntoView({behavior:'smooth'})">Explore Platform →</button>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-card">
+      <div class="stat-num">99.4%</div>
+      <div class="stat-label">Batch Success Rate</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">2.3ms</div>
+      <div class="stat-label">Sensor Latency</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">18%</div>
+      <div class="stat-label">Yield Improvement</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">47+</div>
+      <div class="stat-label">Active Integrations</div>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARD PREVIEW -->
+<section class="dashboard-section" id="platform">
+  <div class="section-label">// Live Platform Preview</div>
+  <h2 class="section-title">Command-grade<br>Fermentation Intelligence</h2>
+  <p class="section-desc">One unified interface for every bioreactor, vessel, and process stream — monitored, analysed, and optimised in real time by adaptive AI models.</p>
+
+  <div class="dashboard-frame">
+    <div class="dash-topbar">
+      <div class="dash-title-bar">FORSETIX CONTROL CENTER · v3.4.1 · LIVE</div>
+      <div class="status-indicators">
+        <div class="status-dot"><div class="dot green"></div>ALL SYSTEMS NOMINAL</div>
+        <div class="status-dot"><div class="dot amber"></div>VESSEL 04 · WATCH</div>
+        <div class="status-dot" style="color:var(--text-muted)">2026-03-28 · 14:37:09 UTC</div>
+      </div>
+    </div>
+    <div class="dash-grid">
+      <!-- Sidebar -->
+      <div class="dash-sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-label">Vessels · Active</div>
+          <div class="sidebar-item active">
+            <div class="sidebar-item-name"><span class="sidebar-icon">⬡</span> Vessel 01</div>
+            <span class="sidebar-badge">PHASE 3</span>
+          </div>
+          <div class="sidebar-item">
+            <div class="sidebar-item-name"><span class="sidebar-icon">⬡</span> Vessel 02</div>
+            <span class="sidebar-badge">PHASE 1</span>
+          </div>
+          <div class="sidebar-item">
+            <div class="sidebar-item-name"><span class="sidebar-icon">⬡</span> Vessel 03</div>
+            <span class="sidebar-badge">PHASE 4</span>
+          </div>
+          <div class="sidebar-item">
+            <div class="sidebar-item-name"><span class="sidebar-icon">⬡</span> Vessel 04</div>
+            <span class="sidebar-badge alert">⚠ WATCH</span>
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-label">AI Models · Running</div>
+          <div class="sidebar-item">
+            <div class="sidebar-item-name"><span class="sidebar-icon">◈</span> PredictFerm™</div>
+            <span class="sidebar-badge">LIVE</span>
+          </div>
+          <div class="sidebar-item">
+            <div class="sidebar-item-name"><span class="sidebar-icon">◈</span> AnomalyNet</div>
+            <span class="sidebar-badge">LIVE</span>
+          </div>
+          <div class="sidebar-item">
+            <div class="sidebar-item-name"><span class="sidebar-icon">◈</span> YieldOpt AI</div>
+            <span class="sidebar-badge">LIVE</span>
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-label">Reports</div>
+          <div class="sidebar-item"><div class="sidebar-item-name"><span class="sidebar-icon">◻</span> Batch Summary</div></div>
+          <div class="sidebar-item"><div class="sidebar-item-name"><span class="sidebar-icon">◻</span> Compliance Log</div></div>
+          <div class="sidebar-item"><div class="sidebar-item-name"><span class="sidebar-icon">◻</span> Export Data</div></div>
+        </div>
+      </div>
+
+      <!-- Main -->
+      <div class="dash-main">
+        <div class="kpi-row">
+          <div class="kpi-card" style="--fill: 82%">
+            <div class="kpi-label">Temperature</div>
+            <div class="kpi-value ok">37.2</div>
+            <div class="kpi-unit">°C · Target 37.0 ± 0.5</div>
+          </div>
+          <div class="kpi-card" style="--fill: 68%">
+            <div class="kpi-label">pH Level</div>
+            <div class="kpi-value ok">6.84</div>
+            <div class="kpi-unit">Target 6.8 – 7.0</div>
+          </div>
+          <div class="kpi-card" style="--fill: 91%">
+            <div class="kpi-label">DO Saturation</div>
+            <div class="kpi-value warn">34.1</div>
+            <div class="kpi-unit">% · Low threshold: 30%</div>
+          </div>
+          <div class="kpi-card" style="--fill: 55%">
+            <div class="kpi-label">OUR / CER</div>
+            <div class="kpi-value ok">1.14</div>
+            <div class="kpi-unit">RQ · Optimal 1.0–1.2</div>
+          </div>
+        </div>
+
+        <div class="chart-area">
+          <div class="chart-box">
+            <div class="chart-box-title">BIOMASS GROWTH · OD600 · VESSEL 01</div>
+            <div class="sparkline">
+              <svg width="100%" height="100%" viewBox="0 0 400 110" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#00c8b4" stop-opacity="0.3"/>
+                    <stop offset="100%" stop-color="#00c8b4" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path d="M0,100 L40,95 L80,85 L120,70 L160,52 L200,38 L240,28 L280,18 L320,12 L360,8 L400,6 L400,110 L0,110 Z" fill="url(#g1)"/>
+                <path d="M0,100 L40,95 L80,85 L120,70 L160,52 L200,38 L240,28 L280,18 L320,12 L360,8 L400,6" fill="none" stroke="#00c8b4" stroke-width="2"/>
+                <circle cx="400" cy="6" r="4" fill="#00c8b4"/>
+              </svg>
+            </div>
+          </div>
+          <div class="chart-box">
+            <div class="chart-box-title">GLUCOSE CONSUMPTION · g/L · VESSEL 01</div>
+            <div class="sparkline">
+              <svg width="100%" height="100%" viewBox="0 0 400 110" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#f5a623" stop-opacity="0.3"/>
+                    <stop offset="100%" stop-color="#f5a623" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path d="M0,5 L40,10 L80,20 L120,35 L160,48 L200,60 L240,72 L280,82 L320,90 L360,96 L400,100 L400,110 L0,110 Z" fill="url(#g2)"/>
+                <path d="M0,5 L40,10 L80,20 L120,35 L160,48 L200,60 L240,72 L280,82 L320,90 L360,96 L400,100" fill="none" stroke="#f5a623" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--border); padding: 16px;">
+          <div class="panel-title">Batch Progress · Run #FX-2024-0082 · Elapsed: 38h 14m</div>
+          <div style="height: 12px; background: var(--border); position: relative; overflow: hidden;">
+            <div style="position:absolute;top:0;left:0;height:100%;width:62%;background: linear-gradient(90deg, var(--cyan) 0%, rgba(0,200,180,0.5) 100%);"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;margin-top:6px;">
+            <span style="font-family:var(--font-mono);font-size:10px;color:var(--cyan)">62% complete</span>
+            <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">Est. completion: ~23h 10m</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="dash-right">
+        <div>
+          <div class="panel-title">AI Insight Engine</div>
+          <div class="ai-insight">
+            <div class="ai-badge">◈ PredictFerm™ · Active</div>
+            <div class="ai-text">Dissolved oxygen trending toward lower bound. Recommend increasing aeration rate to 1.8 vvm to sustain growth phase. Predicted yield impact: +3.2% if actioned within 90 min.</div>
+            <div class="ai-confidence">
+              <div class="confidence-bar"><div class="confidence-fill" style="width:94%"></div></div>
+              <div class="confidence-val">94%</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="panel-title">Active Alerts</div>
+          <div class="alert-list">
+            <div class="alert-item warn">
+              <div class="alert-icon">⚠</div>
+              <div>
+                <div class="alert-msg">Vessel 04 · DO saturation dropped below 35%. AnomalyNet flagged deviation from baseline.</div>
+                <div class="alert-time">03 min ago</div>
+              </div>
+            </div>
+            <div class="alert-item info">
+              <div class="alert-icon">ℹ</div>
+              <div>
+                <div class="alert-msg">YieldOpt AI suggests substrate feed rate adjustment for Vessel 02 batch optimisation.</div>
+                <div class="alert-time">18 min ago</div>
+              </div>
+            </div>
+            <div class="alert-item info">
+              <div class="alert-icon">✓</div>
+              <div>
+                <div class="alert-msg">Vessel 03 entered Phase 4 — production phase. All parameters nominal.</div>
+                <div class="alert-time">1h 04m ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="panel-title">Model Status</div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
+              <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-secondary)">PredictFerm™ v2.1</span>
+              <span style="font-family:var(--font-mono);font-size:9px;color:var(--green)">● RUNNING</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
+              <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-secondary)">AnomalyNet v1.4</span>
+              <span style="font-family:var(--font-mono);font-size:9px;color:var(--green)">● RUNNING</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0">
+              <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-secondary)">YieldOpt AI v3.0</span>
+              <span style="font-family:var(--font-mono);font-size:9px;color:var(--green)">● RUNNING</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section" id="features">
+  <div class="section-label">// Core Capabilities</div>
+  <h2 class="section-title">Built for industrial-grade<br>fermentation science</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">⬡</div>
+      <div class="feature-name">Real-Time Process Monitoring</div>
+      <div class="feature-desc">Sub-5ms sensor data ingestion across temperature, pH, DO, CO₂, OUR, CER, biomass, and 40+ additional parameters. Full SCADA and PLC integration.</div>
+      <div class="feature-tags"><span class="tag">OPC-UA</span><span class="tag">Modbus</span><span class="tag">MQTT</span><span class="tag">REST API</span></div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">◈</div>
+      <div class="feature-name">Adaptive AI/ML Models</div>
+      <div class="feature-desc">Three proprietary AI engines — PredictFerm™, AnomalyNet, and YieldOpt AI — continuously learn from your process data to improve batch outcomes over time.</div>
+      <div class="feature-tags"><span class="tag">Reinforcement Learning</span><span class="tag">Time-Series</span><span class="tag">Bayesian Opt</span></div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">◫</div>
+      <div class="feature-name">Autonomous Feed Control</div>
+      <div class="feature-desc">Closed-loop substrate and nutrient feed control driven by real-time metabolic state estimation. Reduce manual interventions by up to 80%.</div>
+      <div class="feature-tags"><span class="tag">PID + AI</span><span class="tag">Cascade Control</span><span class="tag">MPC</span></div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⌬</div>
+      <div class="feature-name">Predictive Anomaly Detection</div>
+      <div class="feature-desc">AnomalyNet flags process deviations hours before they become critical failures. Statistical process control combined with deep learning for unprecedented sensitivity.</div>
+      <div class="feature-tags"><span class="tag">SPC</span><span class="tag">Multivariate</span><span class="tag">LSTM</span></div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">≡</div>
+      <div class="feature-name">Regulatory Compliance Engine</div>
+      <div class="feature-desc">Automated audit trails, 21 CFR Part 11 electronic records, GMP batch records, and one-click compliance reporting for FDA, EMA, and ISO standards.</div>
+      <div class="feature-tags"><span class="tag">21 CFR Part 11</span><span class="tag">GMP</span><span class="tag">ISO 9001</span></div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">◎</div>
+      <div class="feature-name">Digital Twin Simulation</div>
+      <div class="feature-desc">Run virtual batches before committing to production. Test process changes, new strains, or scale-up conditions in a physics-informed digital replica of your bioreactor.</div>
+      <div class="feature-tags"><span class="tag">Digital Twin</span><span class="tag">CFD-coupled</span><span class="tag">What-if</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- MODULES -->
+<section class="modules-section" id="modules">
+  <div class="section-label">// Platform Modules</div>
+  <h2 class="section-title">Everything your process needs,<br>in one connected system</h2>
+
+  <div class="modules-tabs">
+    <button class="module-tab active" onclick="switchTab(this,'tab-monitor')">Monitoring</button>
+    <button class="module-tab" onclick="switchTab(this,'tab-ai')">AI Engine</button>
+    <button class="module-tab" onclick="switchTab(this,'tab-yield')">Yield Opt.</button>
+    <button class="module-tab" onclick="switchTab(this,'tab-compliance')">Compliance</button>
+    <button class="module-tab" onclick="switchTab(this,'tab-digital')">Digital Twin</button>
+  </div>
+
+  <div id="tab-monitor" class="module-content active">
+    <div class="module-info">
+      <div class="module-title">Process Monitoring Hub</div>
+      <div class="module-desc">Unified real-time dashboard for every sensor, every vessel, and every parameter — with configurable alerts and automated response protocols.</div>
+      <div class="module-features">
+        <div class="module-feature">40+ sensor parameter types with configurable sampling rates down to 100ms</div>
+        <div class="module-feature">Unified vessel view across unlimited bioreactors and fermenters</div>
+        <div class="module-feature">Smart alert routing via email, SMS, Slack, and PagerDuty</div>
+        <div class="module-feature">Historical trend analysis with configurable time windows</div>
+        <div class="module-feature">Multivariate correlation analysis across all process parameters</div>
+      </div>
+    </div>
+    <div class="module-visual">
+      <div class="panel-title">Live Sensor Array · Vessel 01</div>
+      <div class="sensor-row">
+        <div class="sensor-name">TEMPERATURE</div>
+        <div class="sensor-bar"><div class="sensor-fill" style="width:74%"></div></div>
+        <div class="sensor-val ok" style="font-size:18px;min-width:70px;text-align:right">37.2°C</div>
+      </div>
+      <div class="sensor-row">
+        <div class="sensor-name">pH</div>
+        <div class="sensor-bar"><div class="sensor-fill" style="width:68%"></div></div>
+        <div class="sensor-val ok" style="font-size:18px;min-width:70px;text-align:right">6.84</div>
+      </div>
+      <div class="sensor-row">
+        <div class="sensor-name">DO SAT.</div>
+        <div class="sensor-bar"><div class="sensor-fill" style="width:34%;background:var(--amber)"></div></div>
+        <div class="sensor-val warn" style="font-size:18px;min-width:70px;text-align:right">34.1%</div>
+      </div>
+      <div class="sensor-row">
+        <div class="sensor-name">AGITATION</div>
+        <div class="sensor-bar"><div class="sensor-fill" style="width:80%"></div></div>
+        <div class="sensor-val ok" style="font-size:18px;min-width:70px;text-align:right">480 RPM</div>
+      </div>
+      <div class="sensor-row">
+        <div class="sensor-name">CO₂ OFF-GAS</div>
+        <div class="sensor-bar"><div class="sensor-fill" style="width:55%"></div></div>
+        <div class="sensor-val ok" style="font-size:18px;min-width:70px;text-align:right">2.1 %</div>
+      </div>
+      <div class="sensor-row">
+        <div class="sensor-name">BIOMASS (OD)</div>
+        <div class="sensor-bar"><div class="sensor-fill" style="width:88%"></div></div>
+        <div class="sensor-val ok" style="font-size:18px;min-width:70px;text-align:right">42.8</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-ai" class="module-content">
+    <div class="module-info">
+      <div class="module-title">AI Engine Suite</div>
+      <div class="module-desc">Three purpose-built AI models trained on millions of fermentation datapoints, continuously refined on your own process data for unmatched predictive accuracy.</div>
+      <div class="module-features">
+        <div class="module-feature"><strong>PredictFerm™</strong> — 72h batch outcome forecasting with confidence intervals</div>
+        <div class="module-feature"><strong>AnomalyNet</strong> — Multivariate anomaly detection, alerts hours before failure</div>
+        <div class="module-feature"><strong>YieldOpt AI</strong> — Real-time feed and parameter optimisation for maximum yield</div>
+        <div class="module-feature">Continuous learning from your historical batch data — models improve over time</div>
+        <div class="module-feature">Explainable AI outputs with actionable recommendations in plain language</div>
+      </div>
+    </div>
+    <div class="module-visual">
+      <div class="panel-title">AI Model Diagnostics</div>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <div style="background:var(--bg-panel);border:1px solid var(--border);padding:14px;">
+          <div style="font-family:var(--font-mono);font-size:10px;color:var(--cyan);margin-bottom:6px">PredictFerm™ v2.1 · PREDICTION</div>
+          <div style="font-size:13px;color:var(--text-secondary);line-height:1.6">Batch #FX-0082 projected yield: <span style="color:var(--cyan);font-weight:600">92.4 g/L</span> ± 3.1 at 62h mark. Confidence: 94%</div>
+        </div>
+        <div style="background:var(--bg-panel);border:1px solid rgba(245,166,35,0.3);padding:14px;">
+          <div style="font-family:var(--font-mono);font-size:10px;color:var(--amber);margin-bottom:6px">AnomalyNet v1.4 · WARNING</div>
+          <div style="font-size:13px;color:var(--text-secondary);line-height:1.6">DO trend deviation from process fingerprint detected. Recommend aeration increase within 90 min. Risk: Medium.</div>
+        </div>
+        <div style="background:var(--bg-panel);border:1px solid var(--border);padding:14px;">
+          <div style="font-family:var(--font-mono);font-size:10px;color:var(--green);margin-bottom:6px">YieldOpt AI v3.0 · RECOMMENDATION</div>
+          <div style="font-size:13px;color:var(--text-secondary);line-height:1.6">Increase glucose feed to 3.2 g/L/h at t+1h to sustain exponential growth. Expected yield gain: +3.2%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-yield" class="module-content">
+    <div class="module-info">
+      <div class="module-title">Yield Optimisation</div>
+      <div class="module-desc">YieldOpt AI continuously solves the multi-objective optimisation problem of maximising product titre while minimising substrate cost and process deviations.</div>
+      <div class="module-features">
+        <div class="module-feature">Real-time Model Predictive Control (MPC) for closed-loop feed optimisation</div>
+        <div class="module-feature">Multi-objective optimisation: yield, purity, cost, and time</div>
+        <div class="module-feature">Strain-specific models built from your process history</div>
+        <div class="module-feature">Integrated carbon-to-product pathway analysis</div>
+        <div class="module-feature">Automated substrate feeding profiles with deviation correction</div>
+      </div>
+    </div>
+    <div class="module-visual">
+      <div class="panel-title">Optimisation Targets · Vessel 01</div>
+      <div style="display:flex;flex-direction:column;gap:16px;margin-top:8px;">
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;">
+            <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">PRODUCT TITRE</span>
+            <span style="font-family:var(--font-mono);font-size:11px;color:var(--cyan)">92.4 / 95 g/L</span>
+          </div>
+          <div style="height:6px;background:var(--border)"><div style="width:97%;height:100%;background:var(--cyan)"></div></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;">
+            <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">BATCH EFFICIENCY</span>
+            <span style="font-family:var(--font-mono);font-size:11px;color:var(--green)">88%</span>
+          </div>
+          <div style="height:6px;background:var(--border)"><div style="width:88%;height:100%;background:var(--green)"></div></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;">
+            <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">SUBSTRATE UTILISATION</span>
+            <span style="font-family:var(--font-mono);font-size:11px;color:var(--cyan)">76%</span>
+          </div>
+          <div style="height:6px;background:var(--border)"><div style="width:76%;height:100%;background:var(--cyan)"></div></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;">
+            <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">COST vs TARGET</span>
+            <span style="font-family:var(--font-mono);font-size:11px;color:var(--amber)">+4.2% over</span>
+          </div>
+          <div style="height:6px;background:var(--border)"><div style="width:62%;height:100%;background:var(--amber)"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-compliance" class="module-content">
+    <div class="module-info">
+      <div class="module-title">Compliance Engine</div>
+      <div class="module-desc">Automated regulatory compliance for GMP, FDA 21 CFR Part 11, and ISO-certified environments. Full audit trails, electronic signatures, and one-click reporting.</div>
+      <div class="module-features">
+        <div class="module-feature">21 CFR Part 11 compliant electronic batch records and audit trails</div>
+        <div class="module-feature">GMP-ready deviation management and CAPA tracking</div>
+        <div class="module-feature">Automated batch release documentation package generation</div>
+        <div class="module-feature">Role-based access control with electronic signatures (e-sign)</div>
+        <div class="module-feature">Export-ready dossiers for regulatory submissions (FDA, EMA)</div>
+      </div>
+    </div>
+    <div class="module-visual">
+      <div class="panel-title">Compliance Status</div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px;background:rgba(34,211,160,0.05);border:1px solid rgba(34,211,160,0.2)">
+          <span style="font-size:13px;color:var(--text-secondary)">21 CFR Part 11 Mode</span>
+          <span style="font-family:var(--font-mono);font-size:10px;color:var(--green)">● ENABLED</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px;background:rgba(34,211,160,0.05);border:1px solid rgba(34,211,160,0.2)">
+          <span style="font-size:13px;color:var(--text-secondary)">Audit Trail</span>
+          <span style="font-family:var(--font-mono);font-size:10px;color:var(--green)">● ACTIVE · 1,204 entries</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px;background:rgba(34,211,160,0.05);border:1px solid rgba(34,211,160,0.2)">
+          <span style="font-size:13px;color:var(--text-secondary)">Open Deviations</span>
+          <span style="font-family:var(--font-mono);font-size:10px;color:var(--amber)">2 open</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px;background:rgba(34,211,160,0.05);border:1px solid rgba(34,211,160,0.2)">
+          <span style="font-size:13px;color:var(--text-secondary)">Last Batch Report</span>
+          <span style="font-family:var(--font-mono);font-size:10px;color:var(--cyan)">FX-0081 · Ready</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-digital" class="module-content">
+    <div class="module-info">
+      <div class="module-title">Digital Twin</div>
+      <div class="module-desc">Physics-informed digital replicas of your bioreactors enable safe in-silico testing of new strains, process changes, and scale-up scenarios before touching real vessels.</div>
+      <div class="module-features">
+        <div class="module-feature">Physics-based bioreactor models (Monod kinetics, mass transfer, CFD-coupled)</div>
+        <div class="module-feature">What-if scenario analysis — simulate process changes instantly</div>
+        <div class="module-feature">Scale-up prediction from lab (5L) to production (5000L+)</div>
+        <div class="module-feature">New strain evaluation without consuming physical resources</div>
+        <div class="module-feature">Live synchronisation with real vessel data for continuous calibration</div>
+      </div>
+    </div>
+    <div class="module-visual">
+      <div class="panel-title">Digital Twin · Simulation Mode</div>
+      <div style="text-align:center;padding:20px 0;">
+        <svg width="200" height="200" viewBox="0 0 200 200" style="overflow:visible">
+          <defs>
+            <linearGradient id="vessel-grad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="rgba(0,200,180,0.2)"/>
+              <stop offset="100%" stop-color="rgba(0,200,180,0.05)"/>
+            </linearGradient>
+          </defs>
+          <!-- Vessel outline -->
+          <ellipse cx="100" cy="30" rx="60" ry="12" fill="none" stroke="rgba(0,200,180,0.4)" stroke-width="1.5"/>
+          <rect x="40" y="30" width="120" height="140" fill="url(#vessel-grad)" stroke="rgba(0,200,180,0.4)" stroke-width="1.5"/>
+          <ellipse cx="100" cy="170" rx="60" ry="12" fill="rgba(0,200,180,0.1)" stroke="rgba(0,200,180,0.4)" stroke-width="1.5"/>
+          <!-- Fill level -->
+          <ellipse cx="100" cy="80" rx="58" ry="11" fill="rgba(0,200,180,0.3)" style="animation: none"/>
+          <rect x="42" y="80" width="116" height="88" fill="rgba(0,200,180,0.08)"/>
+          <!-- Impeller -->
+          <line x1="85" y1="130" x2="115" y2="130" stroke="rgba(0,200,180,0.6)" stroke-width="2"/>
+          <line x1="100" y1="115" x2="100" y2="145" stroke="rgba(0,200,180,0.6)" stroke-width="2"/>
+          <!-- Sparger -->
+          <circle cx="100" cy="160" r="8" fill="none" stroke="rgba(0,200,180,0.4)" stroke-width="1"/>
+          <!-- Bubbles in vessel -->
+          <circle cx="80" cy="140" r="3" fill="rgba(0,200,180,0.4)" style="animation: rise 3s infinite"/>
+          <circle cx="115" cy="120" r="2" fill="rgba(0,200,180,0.4)" style="animation: rise 2.5s infinite 0.5s"/>
+          <circle cx="95" cy="100" r="2" fill="rgba(0,200,180,0.4)" style="animation: rise 3.5s infinite 1s"/>
+          <!-- Labels -->
+          <text x="170" y="84" font-family="DM Mono, monospace" font-size="9" fill="rgba(0,200,180,0.7)">62%</text>
+          <line x1="160" y1="80" x2="155" y2="80" stroke="rgba(0,200,180,0.4)" stroke-width="1"/>
+        </svg>
+        <div style="font-family:var(--font-mono);font-size:10px;color:var(--cyan);letter-spacing:2px;margin-top:8px">TWIN SYNCHRONISED · 2.3ms LAG</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARKETS -->
+<section class="markets-section" id="markets">
+  <div class="section-label">// Target Markets</div>
+  <h2 class="section-title">Designed for every scale<br>of fermentation operation</h2>
+  <div class="markets-grid">
+    <div class="market-card" style="background:var(--bg-card)">
+      <div class="market-icon">🏭</div>
+      <div class="market-name">SME Producers</div>
+      <div class="market-desc">Craft breweries, artisan fermenters, and small-scale biotechnology companies that need enterprise-grade control without enterprise-grade complexity.</div>
+      <div class="market-list">
+        <div class="market-list-item">Craft &amp; microbreweries</div>
+        <div class="market-list-item">Specialty fermented food &amp; beverage</div>
+        <div class="market-list-item">Small-scale biotech producers</div>
+        <div class="market-list-item">Contract fermentation services</div>
+      </div>
+    </div>
+    <div class="market-card" style="background:var(--bg-card); border-color: var(--border-bright)">
+      <div class="market-icon">🏢</div>
+      <div class="market-name">Institutional</div>
+      <div class="market-desc">Pharmaceutical manufacturers, biopharmaceutical CDMOs, and large-scale industrial fermentation facilities requiring full GMP compliance and regulatory audit readiness.</div>
+      <div class="market-list">
+        <div class="market-list-item">Pharmaceutical &amp; biopharma manufacturers</div>
+        <div class="market-list-item">CDMO / contract manufacturing</div>
+        <div class="market-list-item">Industrial enzyme &amp; amino acid production</div>
+        <div class="market-list-item">Sustainable protein &amp; precision fermentation</div>
+      </div>
+    </div>
+    <div class="market-card" style="background:var(--bg-card)">
+      <div class="market-icon">🔬</div>
+      <div class="market-name">Research</div>
+      <div class="market-desc">Universities, R&amp;D labs, and bioprocess research institutes that need sophisticated data capture, experimental reproducibility, and powerful analytical tools.</div>
+      <div class="market-list">
+        <div class="market-list-item">University bioprocess laboratories</div>
+        <div class="market-list-item">Public &amp; private R&amp;D institutes</div>
+        <div class="market-list-item">Synthetic biology research groups</div>
+        <div class="market-list-item">Fermentation technology development</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section" id="pricing">
+  <div class="section-label">// Pricing &amp; Plans</div>
+  <h2 class="section-title">Transparent, scalable pricing<br>for every operation</h2>
+  <p class="section-desc">All plans include core monitoring, AI insights, and dedicated onboarding. Scale up as your production grows.</p>
+
+  <div class="pricing-grid">
+    <!-- SME -->
+    <div class="price-card">
+      <div class="price-tier">SME</div>
+      <div class="price-name">Starter</div>
+      <div class="price-target">For small-scale producers &amp; pilot facilities</div>
+      <div class="price-amount">
+        <div class="price-cur">€</div>
+        <div class="price-num">490</div>
+      </div>
+      <div class="price-period">per vessel / month</div>
+      <div class="price-note">Up to 4 vessels · Billed annually</div>
+      <div class="divider"></div>
+      <div class="price-features">
+        <div class="price-feature"><span class="check">✓</span> Up to 4 bioreactors / fermenters</div>
+        <div class="price-feature"><span class="check">✓</span> 20 sensor parameters per vessel</div>
+        <div class="price-feature"><span class="check">✓</span> PredictFerm™ AI (48h forecast)</div>
+        <div class="price-feature"><span class="check">✓</span> AnomalyNet anomaly detection</div>
+        <div class="price-feature"><span class="check">✓</span> Standard reporting &amp; export</div>
+        <div class="price-feature"><span class="check">✓</span> Email &amp; SMS alerts</div>
+        <div class="price-feature"><span class="check">✓</span> 1 year data retention</div>
+        <div class="price-feature"><span class="check">✓</span> Email support (48h SLA)</div>
+      </div>
+      <button class="price-btn price-btn-outline">Start Free Trial</button>
+    </div>
+
+    <!-- Institutional -->
+    <div class="price-card featured">
+      <div class="price-tier">Institutional</div>
+      <div class="price-name">Professional</div>
+      <div class="price-target">For GMP manufacturers &amp; CDMOs</div>
+      <div class="price-amount">
+        <div class="price-cur">€</div>
+        <div class="price-num">1,490</div>
+      </div>
+      <div class="price-period">per vessel / month</div>
+      <div class="price-note">Up to 20 vessels · Billed annually</div>
+      <div class="divider"></div>
+      <div class="price-features">
+        <div class="price-feature"><span class="check">✓</span> Up to 20 bioreactors / fermenters</div>
+        <div class="price-feature"><span class="check">✓</span> 40+ sensor parameters per vessel</div>
+        <div class="price-feature"><span class="check">✓</span> Full AI Engine Suite (all 3 models)</div>
+        <div class="price-feature"><span class="check">✓</span> YieldOpt AI closed-loop control</div>
+        <div class="price-feature"><span class="check">✓</span> Digital Twin module</div>
+        <div class="price-feature"><span class="check">✓</span> 21 CFR Part 11 Compliance Engine</div>
+        <div class="price-feature"><span class="check">✓</span> GMP batch records &amp; audit trail</div>
+        <div class="price-feature"><span class="check">✓</span> SCADA / PLC integration (OPC-UA)</div>
+        <div class="price-feature"><span class="check">✓</span> 7 year data retention</div>
+        <div class="price-feature"><span class="check">✓</span> Dedicated CSM + 4h SLA support</div>
+      </div>
+      <button class="price-btn price-btn-solid">Request Demo</button>
+    </div>
+
+    <!-- Research -->
+    <div class="price-card">
+      <div class="price-tier">Research</div>
+      <div class="price-name">Academic</div>
+      <div class="price-target">For universities &amp; R&amp;D laboratories</div>
+      <div class="price-amount">
+        <div class="price-cur">€</div>
+        <div class="price-num">290</div>
+      </div>
+      <div class="price-period">per vessel / month</div>
+      <div class="price-note">Up to 8 vessels · Academic verification required</div>
+      <div class="divider"></div>
+      <div class="price-features">
+        <div class="price-feature"><span class="check">✓</span> Up to 8 bioreactors / fermenters</div>
+        <div class="price-feature"><span class="check">✓</span> 40+ sensor parameters per vessel</div>
+        <div class="price-feature"><span class="check">✓</span> Full AI Engine Suite</div>
+        <div class="price-feature"><span class="check">✓</span> Raw data API access (JSON/CSV)</div>
+        <div class="price-feature"><span class="check">✓</span> Jupyter notebook integration</div>
+        <div class="price-feature"><span class="check">✓</span> Digital Twin (experimental mode)</div>
+        <div class="price-feature"><span class="check">✓</span> Publication-ready export formats</div>
+        <div class="price-feature"><span class="check">✓</span> 5 year data retention</div>
+        <div class="price-feature"><span class="check">✓</span> Community support + docs</div>
+      </div>
+      <button class="price-btn price-btn-outline">Apply for Academic Access</button>
+    </div>
+  </div>
+
+  <div style="text-align:center;margin-top:48px;padding:40px;border:1px solid var(--border);background:var(--bg-panel);">
+    <div class="section-label" style="text-align:center">Enterprise</div>
+    <h3 style="font-family:var(--font-display);font-size:32px;font-weight:800;margin-bottom:12px;">Unlimited Vessels. Custom Everything.</h3>
+    <p style="color:var(--text-secondary);font-size:15px;max-width:500px;margin:0 auto 28px;line-height:1.7;">Custom SLAs, dedicated infrastructure, white-labelling, on-premise deployment, and custom AI model training on your proprietary data.</p>
+    <button class="btn-large" onclick="alert('Contact us at enterprise@forsetix.io')">Contact Enterprise Sales</button>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="contact">
+  <div class="cta-glow"></div>
+  <div class="cta-content">
+    <div class="section-label" style="text-align:center">// Get Started</div>
+    <h2 class="cta-title">Your fermentation process,<br><span style="color:var(--cyan)">optimised by AI.</span></h2>
+    <p class="cta-desc">Join forward-thinking producers using F.O.R.S.E.T.I.X. to deliver better batches, fewer failures, and higher yields — consistently.</p>
+    <div class="cta-actions">
+      <button class="btn-large" onclick="alert('Starting your 14-day free trial...')">Start 14-Day Free Trial</button>
+      <button class="btn-large-ghost" onclick="alert('Booking a personalised demo...')">Book a Demo →</button>
+    </div>
+    <p style="margin-top:24px;font-family:var(--font-mono);font-size:11px;color:var(--text-muted);letter-spacing:1px">No credit card required · Setup in under 2 hours · Cancel anytime</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <div class="footer-logo">F.O.R.S.E.T.I.X.</div>
+    <div class="footer-tagline">AI/ML Fermentation Control Platform · B2B SaaS</div>
+  </div>
+  <div class="footer-links">
+    <div class="footer-col">
+      <h4>Platform</h4>
+      <a href="#">Monitoring Hub</a>
+      <a href="#">AI Engine</a>
+      <a href="#">Yield Optimisation</a>
+      <a href="#">Compliance Engine</a>
+      <a href="#">Digital Twin</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Research</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <a href="#">Documentation</a>
+      <a href="#">API Reference</a>
+      <a href="#">Case Studies</a>
+      <a href="#">Blog</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">GDPR</a>
+      <a href="#">Security</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2026 F.O.R.S.E.T.I.X. PLATFORM · ALL RIGHTS RESERVED</div>
+    <div class="footer-copy">MADE FOR FERMENTATION SCIENCE</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
